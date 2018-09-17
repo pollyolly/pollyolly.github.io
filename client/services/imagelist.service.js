@@ -27,7 +27,7 @@
         {
             'category' : 'wordpress',
             'list' : [
-                'assets/img/ilc-website.jpg'
+                'assets/img/ilc-website.png'
             ]
         },
         {
