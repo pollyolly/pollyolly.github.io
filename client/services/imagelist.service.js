@@ -9,7 +9,7 @@
                 'assets/img/ilc-website.png',
                 'assets/img/pages-website.png',
                 'assets/img/conference-website.png',
-                'assets/img/assetmanagement-website.jpg',
+                'assets/img/assetmanagement-website.png',
                 'assets/img/invites-website.png',
             ]
         },{
