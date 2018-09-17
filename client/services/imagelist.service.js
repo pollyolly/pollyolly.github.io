@@ -6,73 +6,34 @@
         var imagelist = [{
             'category' : 'php',
             'list' : [
-                'assets/img/img1.jpg',
-                'assets/img/img2.jpg',
-                'assets/img/img3.jpg',
-                'assets/img/img4.jpg',
-                'assets/img/img5.jpg',
+                'assets/img/ilc-website.png',
+                'assets/img/pages-website.png',
+                'assets/img/conference-website.png',
+                'assets/img/assetmanagement-website.jpg',
+                'assets/img/invites-website.png',
             ]
         },{
             'category' : 'codeigniter',
             'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
+                'assets/img/invites-website.png'
             ]
         },
         {
             'category' : 'drupal',
             'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
+                'assets/img/pages-website.png'
             ]
         },
         {
             'category' : 'wordpress',
             'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
+                'assets/img/ilc-website.jpg'
             ]
         },
         {
             'category' : 'angularjs',
             'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
-            ]
-        },
-        {
-            'category' : 'nodejs',
-            'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
-            ]
-        },
-        {
-            'category' : 'libraries',
-            'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
-            ]
-        },
-        {
-            'category' : 'photoshop',
-            'list' : [
-                'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg',
-                // 'assets/img/img1.jpg'
+                'assets/img/portfolio-website.png'
             ]
         }
     ];
