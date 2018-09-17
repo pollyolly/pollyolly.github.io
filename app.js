@@ -1,0 +1,16 @@
+(function(){
+angular.module('portfolio2017',[
+    'ngRoute',
+    'ngResource',
+    'ngAnimate',
+    'about-me',
+    'portfolio',
+    'apps',
+    'chatbox',
+    'admin-panel',
+    'imagelistSrv',
+    'appslistSrv',
+    'chatboxSrv',
+    'pagerSrv'
+]);
+})();

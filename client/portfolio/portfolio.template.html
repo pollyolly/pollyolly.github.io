@@ -1,0 +1,16 @@
+<div class="column column2">
+    <div class="row-title">
+        <h3>{{portfolio.title}}</h3>
+    </div>
+    <div class="portfolio-nav">
+        <span class="nav cat" ng-repeat="list in portfolio.imagesList()">
+            <span ng-click="portfolio.selectImage(list.category)"
+                  ng-init="portfolio.selectImage('php')">
+                {{ list.category }}
+            </span>
+        </span>
+    </div>
+    <div class="card card-three" ng-repeat="list in portfolio.myimages">
+        <img src="{{ list }}"></img>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+<!-- 
+Project Started: 10/03/2017
+-->
+<html ng-app="portfolio2017">
+    <head>
+        <title>ng-JMR</title>
+        <link href="assets/css/main.css" rel="stylesheet" >
+        <link href="assets/font/css/font-awesome.min.css" rel="stylesheet">
+        <script src="assets/lib/angular.min.js"></script>
+        <script src="assets/lib/angular-route.min.js"></script>
+        <script src="assets/lib/angular-resource.min.js"></script>
+        <script src="assets/lib/angular-animate.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="container">
+            <div id="cover-photo">
+                <div class="profile-picture">
+                    <img src="assets/img/profile-picture.jpg"></img>
+                </div>
+                <ul class="menu">
+                    <li><a href="#!/about-me">About Me</a></li>
+                    <li><a href="#!/portfolio">Portfolio</a></li>
+                    <li><a href="#!/apps">Applications</a></li>
+                </ul>
+            </div>
+            <div class="menu-search">
+                <span><a>Search:</a><input type="text" placeholder="Search here..." ng-model="searchHere"/></span>
+            </div>
+            <div class="column column1">
+                <div class="card card-one">
+                    <div class="card-head">
+                        <span><i class="fa fa-info card-action" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="card-item">
+                        <p class="card-item-title">Info</p>
+                        <p><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>Web Developer, Programmer</p>
+                        <p><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Philippines, Manila</p>
+                        <p><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>johnmarkroco05@gmail.com</p>
+                        <p><i class="fa fa-phone fa-fw" aria-hidden="true"></i>09998585605</p>
+                    </div>
+                    <div class="card-item">
+                        <p class="card-item-title">Skills</p>
+                        <span class="tag">Communication</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Codeigniter</span>
+                        <span class="tag">Wordpress</span>
+                        <span class="tag">Drupal</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDb</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">JSON</span>
+                        <span class="tag">NodeJS</span>
+                        <span class="tag">AngularJS</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">HTML</span>
+                    </div>
+                    <div class="card-item">
+                        <p class="card-item-title">Language & Written</p>
+                        <p>English - Basic</p>
+                        <p>Filipino</p>
+                    </div>        
+                </div>
+                <!-- <span class="btn btn-success btn-admin-edit" >Login</span> -->
+            </div>
+
+            <div ng-view></div>
+            <!-- <admin-panel></admin-panel> -->
+            <chat-box></chat-box>
+        </div>
+    </body>
+    <script src="app.js"></script>
+    <script src="app.config.js"></script>
+    <script src="client/services/imagelist.service.js"></script>
+    <script src="client/services/appslist.service.js"></script>
+    <script src="client/services/pagination.service.js"></script>
+    <script src="client/about-me/about-me.controller.js"></script>
+    <script src="client/portfolio/portfolio.controller.js"></script>
+    <script src="client/apps/apps.controller.js"></script>
+    <script src="client/component/chatbox/chatbox.service.js"></script>
+    <script src="client/component/chatbox/chatbox.component.js"></script>
+    <script src="client/component/chatbox/chatbox.service.js"></script>
+    <script src="client/component/admin-panel/admin-panel.component.js"></script>
+</html>

@@ -1,0 +1,451 @@
+/*
+* MAIN
+* * * * * * */
+* {
+    box-sizing: border-box;
+}
+.fa {
+    color: #4b4f56;
+    display: block;
+    text-align: center;
+    margin-right: 15px;
+    width: 10px;
+}
+h3 {
+    font-family: tahoma;
+    color: #ccc;
+    font-size: 13pt;
+    font-weight: 600;
+}
+p, a, li, span, .texts{
+    font-family: tahoma;
+    font-size: 11pt;
+    color: #757575;
+}
+body {
+    background-color: #efefef;
+}
+#container {
+    width: 852px;
+    height: 100%;
+    margin: 0 auto;
+}
+span.tag {
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 0px 4px;
+    background-color: #f1f0f0;
+    color: #4b4f56;
+    line-height: 25px;
+}
+span.tag:hover{
+    background-color: #ddd;
+}
+/*
+* HEADER
+* * * * * * */
+#cover-photo {
+    height: 200px;
+    background-color: #ddd;
+    position: relative;
+}
+.menu li{
+    box-sizing: content-box;
+    display: inline-block;
+    border: 1.5px solid #ddd;
+    margin: -3px;
+}
+.menu li a{
+    display: block;
+    padding: 0.3em 1.5em;
+    background-color: #fff;
+    font-size: 11pt;
+    color: #4b4f56;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #f1f0f0;
+    cursor: pointer;
+}
+ul.menu {
+    position: absolute;
+    bottom: 1;
+    right: 20;
+    float: right;
+}
+.profile-picture img {
+    z-index: 1;
+    float: left;
+    height: 120px;
+    width: 120px;
+    border-radius: 5% 5%;
+    border: 3px solid #fff;
+    position: absolute;
+    bottom: -30;
+    left: 70;
+}
+.menu-search {
+    background-color: #fff;
+    height: 40px;
+}
+.menu-search span {
+    float: right;
+    display: block;
+    padding: 0.5em 1em;
+}
+.menu-search span a {
+    padding: 0.4em .8em;
+    /* border: 1px solid #efefef; */
+    margin-right: 2px;
+    font-size: 10pt;
+    color: #4b4f56;
+}
+.menu-search span a:hover {
+    background-color: #f1f0f0;
+    cursor: pointer;
+}
+.menu-search span input {
+    border: 1px solid #efefef;
+    width: 238px;
+    padding: 5px;
+}
+/*
+* COLUMN
+* * * * * * */
+.column1 {
+    /* width: 33%; */
+    float: left;
+}
+.column2 {
+    width: 64.5%;
+    float: right;
+}
+/*
+* CARD
+* * * * * * */
+.card .card-head {
+    border-bottom: 1px solid #efefef;
+    width: auto;
+    height: 20px;
+}
+.card .card-action {
+    float:right;
+}
+#container .card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: 0px;
+    display: block;
+}
+/* #container .card li {
+    list-style: none;
+} */
+#container .card-one {
+    width: 290px;
+    /* float: left; temporary fix for dynamic cards */
+}
+#container .card-two {
+    margin-top: 0px; /*temporary fix for alignment cards*/
+    margin-bottom: 13px;
+    width: 551px;
+    clear: right;
+}
+#container .card-three {
+    width: 233px; 
+    height: 233px;
+    margin-right: 15px;
+    display: inline-block;
+}
+#container .card-three img{
+    /* width: inherit;
+    height: inherit; */
+}
+/*
+* CARD ITEM
+* * * * * * */
+.card-item {
+    border-bottom: 1px solid #efefef; 
+    padding: 0px;
+    margin: 0px;
+}
+.card-item-title {
+    color: #ccc;
+    font-size: 13pt;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.card-item p {
+    line-height: 1em;
+}
+.card-item p:last-child, .card-item p:first-child {
+    padding: 5px 0px;
+}
+.card-item:last-child {
+    border-bottom: 1px solid #fff; 
+}
+/*
+* ROW TITLE
+* * * * * * */
+.row-title {
+    /* height: 20px; */
+    text-align: center;
+    margin-bottom: 12px;
+}
+/*
+* PORTFOLIO
+* * * * * * */
+.portfolio-nav .nav:hover {
+    background-color: #f1f0f0;
+    cursor: pointer;
+}
+.portfolio-nav .prev {
+    margin-right: 5px;
+}
+.portfolio-nav {
+    height: auto;
+}
+.portfolio-nav .next, .portfolio-nav .prev, .portfolio-nav .cat {
+    padding: 4px 6px;
+    background-color: #fff;
+    color: #757575;
+    border: 1px solid #ddd; 
+    font-size: 10pt;
+    display: inline-block;
+    /* margin-bottom: 0px; */
+    margin-right: 5px;
+}
+/*
+*PAGINATION
+*/
+.paginate{
+    margin-top: -2.5px;
+    text-align: center;
+}
+.paginate li.page:hover {
+    background-color: #f1f0f0;
+    cursor: pointer;
+}
+.paginate li.active {
+    background-color: #f1f0f0;
+}
+.paginate li.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.paginate .page {
+    padding: 4px 6px;
+    background-color: #fff;
+    color: #757575;
+    border: 1px solid #ddd; 
+    font-size: 10pt;
+    display: inline-block;
+    margin: 0 -3px;
+}
+/*
+*POST
+* * * * */
+.post {
+    display: inline-block;
+}
+.post-date, .post-date .fa-calendar {
+    margin-top: -15px;
+    font-size: 10pt;
+    color: #ccc;
+    /* line-height: .1em; */
+}
+.post-image {
+    height: 150px;
+    width: 150px;
+    margin-right: 5px;
+}
+.post-title {
+    margin-top: 8px;
+}
+.post-excerpt {
+    width: 350px;
+    line-height: 1.4em !important;
+    overflow-wrap: break-word;
+    margin: 0px;
+    margin-top: -10px;
+    float: right;
+}
+/* .post-excerpt {
+} */
+/*
+* CHATBOX
+* * * * * * */
+.chatbox {
+    position: fixed;
+    bottom: 1;
+    left: 18.6%;
+    z-index: 10;
+    width: 250px;
+    height: 280px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.chatbox-nav {
+    border-bottom: 1px solid #ddd;
+}
+.chatbox-nav span {
+    padding: 5px;
+    display: inline-block;
+    font-weight: 600;
+    color: #4b4f56;
+}
+.chatbox-nav .dot {
+    border-radius: 50%;
+    height: 0.1px;
+    width: 0.1px;
+    background-color: green;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.chatbox-body textarea {
+    width: 100%;
+    height: 50px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    bottom: 1;
+    overflow: hidden;
+}
+.chatbox-content {
+    height: 200px;
+    width:100%;
+    background-color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.chatbox-content .texts {
+    font-family: tahoma;
+    font-size: 10pt;
+    padding: 10px;
+    overflow-wrap: break-word;
+    border: 1px solid #efefef;
+    margin-bottom: 5px;
+    display: block;
+}
+.chatbox-content .response {
+    background-color: #f1f0f0;
+    margin-right: 15px;
+    margin-left: 3px;
+    border-radius: 25px 10px 10px 25px;
+}
+.chatbox-content .sent {
+    background-color: #c0c9d8;
+    margin-left: 15px;
+    margin-right: 3px;
+    border-radius: 10px 25px 25px 10px;
+}
+@keyframes closeChat{
+    from{
+        height: 280px;
+    }
+    to {
+        height: auto;
+    }
+}
+.close{
+    animation: 0.5s closeChat;
+}
+/*
+*ANIMATIONS
+* * * * * */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+    from{opacity: 4;}
+    to{opacity: 1;}
+}
+@keyframes fade {
+    from{opacity: 4;}
+    to{opacity: 1;}
+}
+/*
+*Buttons
+* * * * * */
+span.btn {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    padding: 4px 6px;
+    float: left;
+    border-radius: 2px;
+    cursor: pointer;
+}
+span.btn-success {
+    color: #fff;
+    background-color: #c0c9d8;
+}
+/*
+* Admin Panel
+*/
+.admin-panel {
+    /* height: 500px; */
+    height: auto;
+    width: 700px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    z-index: 11;
+    position: fixed;
+    top: 10%;
+    right: 24%;
+}
+.panel-menu {
+    position: absolute;
+    left: -6px;
+    top: -50px;
+    padding: 5px;
+}
+.panel-menu a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.panel-menu li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #efef;
+    border-bottom: #fff;
+    border-radius: 3px 3px 0px 0px;
+    background-color: #fff;
+}
+.panel-body{
+    margin: 10px;
+    border: 1px dashed #ccc;
+    height: inherit;
+    /* width: 100%; */
+}
+/*
+* Forms, Inputs
+*/
+.form-input{
+    width: 50%;
+    border: 1px solid #ccc;
+}
+.form-column-left {
+    /* display: inline-block; */
+    float: left;
+    width: 50%;
+    /* display: block; */
+    position: relative;
+}
+.form-column-right {
+    float: right;
+    width: 50%;
+    /* display: block; */
+    position: relative;
+}

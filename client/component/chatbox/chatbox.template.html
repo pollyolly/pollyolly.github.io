@@ -1,0 +1,16 @@
+<div class="chatbox" ng-style="!show ? {'height': 'auto'} : {'height': '280px'}">
+    <div class="chatbox-nav" ng-click="show = !show">
+        <span ng-show="false == show"><i class="fa fa-minus card-action" style="margin-right: 5px;" aria-hidden="true"></i></span>
+        <span ng-show="true == show"><i class="fa fa-square-o card-action" style="margin-right: 5px;" aria-hidden="true"></i></span>
+        <span>Chat Me</span><span class="dot"></span>
+    </div>
+    <div class="chatbox-body" ng-show="show">
+        <div class="chatbox-content">
+            <!-- <span > -->
+                <div class="texts {{ list.status }}" ng-repeat="list in chat.chatlist()"> {{ list.message }} </div>
+            <!-- </span> -->
+            <!-- <div class="texts sent">Im good dude. :D asdfasdfasdfss asdfasdfasfasdf asdfasdfas</div> -->
+        </div>
+        <textarea placeholder="Let's talk here..."></textarea>
+    </div>
+</div>
