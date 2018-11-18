@@ -25,5 +25,6 @@
                     enable:true,
                     requireBase: false
                 });
+
             }]);
 })();

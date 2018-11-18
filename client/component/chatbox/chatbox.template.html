@@ -1,16 +1,18 @@
 <div class="chatbox" ng-style="!show ? {'height': 'auto'} : {'height': '280px'}">
-    <div class="chatbox-nav" ng-click="show = !show">
+    <div class="chatbox-nav">
         <span ng-show="false == show"><i class="fa fa-minus card-action" style="margin-right: 5px;" aria-hidden="true"></i></span>
         <span ng-show="true == show"><i class="fa fa-square-o card-action" style="margin-right: 5px;" aria-hidden="true"></i></span>
-        <span>Chat Me</span><span class="dot"></span>
+        <span ng-click="show = !show">Chat Me</span><span class="dot"></span>
+		<input type="text" name="chat_user" placeholder="Nickname..." maxlength="16" ng-model="chat.chat_user"
+				style="max-width:100px;margin-right:5px;
+						margin-top:5px;float:right;
+						border:1px solid #ddd;" />
     </div>
     <div class="chatbox-body" ng-show="show">
         <div class="chatbox-content">
-            <!-- <span > -->
                 <div class="texts {{ list.status }}" ng-repeat="list in chat.chatlist()"> {{ list.message }} </div>
-            <!-- </span> -->
-            <!-- <div class="texts sent">Im good dude. :D asdfasdfasdfss asdfasdfasfasdf asdfasdfas</div> -->
         </div>
-        <textarea placeholder="Let's talk here..."></textarea>
+        <textarea placeholder="Let's talk here..." name="chat_message" ng-model="chat.chat_message"></textarea>
+		<input type="submit" name="submit" value="Send" ng-click="chat.chatPost();"/>
     </div>
 </div>

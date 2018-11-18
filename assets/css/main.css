@@ -308,7 +308,7 @@ ul.menu {
     margin-right: 5px;
 }
 .chatbox-body textarea {
-    width: 100%;
+    width: 80%;
     height: 50px;
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
@@ -317,6 +317,12 @@ ul.menu {
     position: absolute;
     bottom: 1;
     overflow: hidden;
+}
+.chatbox-body input[name="submit"] {
+	float:right;
+	height:50px;
+	border:1px solid #ddd;
+	width:20%;
 }
 .chatbox-content {
     height: 200px;

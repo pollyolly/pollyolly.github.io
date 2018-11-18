@@ -8,18 +8,17 @@ module.component('chatBox',{
         $scope.show = false;
         chatbox.chatlist = function(){
             return chatboxSrv.chatMsg();
+            // chatboxSrv.chatMsg(function(results){
+            //     return results
+            // });
         }
 		chatbox.chatPost = function(){
+			console.log('chatPost called');
 			var data = {
 				'chat_user': chatbox.chat_user,
 				'chat_message': chatbox.chat_message
 			}
-			console.log(data);
-			chatboxSrv.chatPostsend(data);
-			chatbox.emptychatPost();	
-		}
-		chatbox.emptychatPost = function(){
-			chatbox.chat_message = '';
+			chatboxSrv.chatPost(data);	
 		}
     }],
     controllerAs: 'chat'
