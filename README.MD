@@ -1,7 +1,2 @@
-Project Started: 10/03/2017
-Project Finished: --/--/----
-Menu
-----Home
-----Portfolio
-----Blog from facebook post
-----About
+#JMR Portfolio Website
+link: https://pollyolly.github.io/jmr/
