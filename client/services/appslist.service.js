@@ -36,6 +36,18 @@ module.factory('appslistSrv', ['$http', function($http){
             'date' : '2018',
             'image' : 'assets/img/assetmanagement-website.png',
             'content' : 'ILC Assetmanagement System is an opensource platform of Snipe-It used for recording of company assets e.g., equipments, consumable items etc.'
+        },
+        {
+            'title' : 'OUR Helpdesk',
+            'date' : '2021',
+            'image' : 'assets/img/osticket-website.png',
+            'content' : 'OUR Helpdesk is a ticketing system used for accepting queries from the students, teachers etc of the UPDiliman.'
+        },
+        {
+            'title' : 'Iskomunidad',
+            'date' : '2019',
+            'image' : 'assets/img/iskomunidad-website.png',
+            'content' : 'Iskomunidad is a wiki system where UP Community can create pages/articles/wiki for free.'
         }
     ];
     service.appslist = function(){
