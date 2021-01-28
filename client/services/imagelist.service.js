@@ -11,6 +11,8 @@
                 'assets/img/conference-website.png',
                 'assets/img/assetmanagement-website.png',
                 'assets/img/invites-website.png',
+                'assets/img/osticket-website.png',
+                'assets/img/iskomunidad-website.png'
             ]
         },{
             'category' : 'codeigniter',
@@ -35,7 +37,19 @@
             'list' : [
                 'assets/img/portfolio-website.png'
             ]
-        }
+        },
+        {
+            'category' : 'wikimedia',
+            'list' : [
+                'assets/img/iskomunidad-website.png'
+            ]
+        },
+        {
+            'category' : 'osticket',
+            'list' : [
+                'assets/img/osticket-website.png'
+            ]
+        },
     ];
         service.imagesList = function(){
             return imagelist;
