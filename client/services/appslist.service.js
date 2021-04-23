@@ -54,6 +54,18 @@ module.factory('appslistSrv', ['$http', function($http){
             'date' : '2021',
             'image' : 'assets/img/icecast2.jpg',
             'content' : 'Icecast2 is a streaming server for video/audio. It can be used to create Internet Radio streaming.'
+        },
+        {
+            'title' : 'HANAY',
+            'date' : '2019',
+            'image' : 'assets/img/hanay-image.jpg',
+            'content' : 'It is a curated collection of scholarly research on Philippine communication and media.'
+        },
+        {
+            'title' : 'EIDR',
+            'date' : '2018',
+            'image' : 'assets/img/eidr-image.jpg',
+            'content' : 'It is a curated collection of statistics and data created for the use of UP Diliman Statistics.'
         }
     ];
     service.appslist = function(){
