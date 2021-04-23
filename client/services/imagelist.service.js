@@ -50,6 +50,12 @@
                 'assets/img/osticket-website.png'
             ]
         },
+        {
+            'category' : 'Streaming',
+            'list' : [
+                'assets/img/icecast2.jpg'
+            ]
+        },
     ];
         service.imagesList = function(){
             return imagelist;
