@@ -67,7 +67,7 @@
          {
             'category' : 'Magazine',
             'list' : [
-                'assets/img/ilc-annivi.jpg'
+                'assets/img/ilc-anniv.jpg'
             ]
         },
         {
