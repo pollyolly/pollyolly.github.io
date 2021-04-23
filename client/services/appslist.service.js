@@ -64,7 +64,7 @@ module.factory('appslistSrv', ['$http', function($http){
         {
             'title' : 'EIDR',
             'date' : '2018',
-            'image' : 'assets/img/eidr-image.jpg',
+            'image' : 'assets/img/eidr-image.JPG',
             'content' : 'It is a curated collection of statistics and data created for the use of UP Diliman Statistics.'
         }
     ];
