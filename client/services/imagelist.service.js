@@ -13,7 +13,7 @@
                 'assets/img/invites-website.png',
                 'assets/img/osticket-website.png',
                 'assets/img/iskomunidad-website.png',
-                'assets/img/eidr-image.jpg',
+                'assets/img/eidr-image.JPG',
                 
             ]
         },{
