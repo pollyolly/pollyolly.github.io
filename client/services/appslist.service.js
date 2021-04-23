@@ -66,6 +66,18 @@ module.factory('appslistSrv', ['$http', function($http){
             'date' : '2018',
             'image' : 'assets/img/eidr-image.JPG',
             'content' : 'It is a curated collection of statistics and data created for the use of UP Diliman Statistics.'
+        },
+        {
+            'title' : 'ILC Anniversary Magazine',
+            'date' : '2018',
+            'image' : 'assets/img/ilc-anniv.jpg',
+            'content' : 'e.now.vation adapting to challenges of 21st century. This is a web magazine and was created for the 15th anniversary of ILC Diliman.'
+        },
+        {
+            'title' : 'ISKOMO',
+            'date' : '2019',
+            'image' : 'assets/img/iskomo-image.jpg',
+            'content' : 'This is the Mobile version of Iskomunidad. Its main purpose is to provide an organize the contents of Iskomunidad and it also have other features like speech to text search and notification.'
         }
     ];
     service.appslist = function(){
