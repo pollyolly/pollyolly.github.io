@@ -25,7 +25,7 @@
         {
             'category' : 'drupal',
             'list' : [
-                'assets/img/eidr-image.jpg',
+                'assets/img/eidr-image.JPG',
                 'assets/img/pages-website.png'
             ]
         },
