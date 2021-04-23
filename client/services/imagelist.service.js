@@ -12,7 +12,9 @@
                 'assets/img/assetmanagement-website.png',
                 'assets/img/invites-website.png',
                 'assets/img/osticket-website.png',
-                'assets/img/iskomunidad-website.png'
+                'assets/img/iskomunidad-website.png',
+                'assets/img/eidr-image.jpg',
+                
             ]
         },{
             'category' : 'codeigniter',
@@ -23,6 +25,7 @@
         {
             'category' : 'drupal',
             'list' : [
+                'assets/img/eidr-image.jpg',
                 'assets/img/pages-website.png'
             ]
         },
@@ -48,6 +51,12 @@
             'category' : 'osticket',
             'list' : [
                 'assets/img/osticket-website.png'
+            ]
+        },
+        {
+            'category' : 'OpenDocman',
+            'list' : [
+                'assets/img/hanay-image.jpg'
             ]
         },
         {
