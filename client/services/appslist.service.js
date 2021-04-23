@@ -48,6 +48,12 @@ module.factory('appslistSrv', ['$http', function($http){
             'date' : '2019',
             'image' : 'assets/img/iskomunidad-website.png',
             'content' : 'Iskomunidad is a wiki system where UP Community can create pages/articles/wiki for free.'
+        },
+        {
+            'title' : 'Icecast2',
+            'date' : '2021',
+            'image' : 'assets/img/icecast2.jpg',
+            'content' : 'Icecast2 is a streaming server for video/audio. It can be used to create Internet Radio streaming.'
         }
     ];
     service.appslist = function(){
