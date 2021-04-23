@@ -64,6 +64,18 @@
                 'assets/img/icecast2.jpg'
             ]
         },
+         {
+            'category' : 'Magazine',
+            'list' : [
+                'assets/img/ilc-annivi.jpg'
+            ]
+        },
+        {
+            'category' : 'Nativescript Vue',
+            'list' : [
+                'assets/img/iskomo-image.jpg'
+            ]
+        }
     ];
         service.imagesList = function(){
             return imagelist;
