@@ -4,7 +4,14 @@ var module = angular.module('appslistSrv', []);
 module.factory('appslistSrv', ['$http', function($http){
     var service = {}
     service.testObject = testObject;
-    var appslist = [{
+    var appslist = [
+        {
+            'title' : 'ILC Diliman Helpdesk',
+            'date' : '2021',
+            'image' : 'assets/img/ilc-helpdesk.JPG',
+            'content' : 'ILC Diliman Helpdesk is a ticketing system used for accepting queries from the teachers and teachers about ILC Diliman web and multimedia services.'
+        },
+        {
             'title' : 'Interactive Learning Center Website',
             'date' : '2017',
             'image' : 'assets/img/ilc-website.png',
