@@ -9,7 +9,7 @@ module.factory('appslistSrv', ['$http', function($http){
             'title' : 'ILC Diliman Helpdesk',
             'date' : '2021',
             'image' : 'assets/img/ilc-helpdesk.JPG',
-            'content' : 'ILC Diliman Helpdesk is a ticketing system used for accepting queries from the teachers and teachers about ILC Diliman web and multimedia services.'
+            'content' : 'ILC Diliman Helpdesk is a ticketing system used for accepting queries about ILC Diliman web, multimedia and other services.'
         },
         {
             'title' : 'Interactive Learning Center Website',
