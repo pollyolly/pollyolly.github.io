@@ -6,6 +6,7 @@
         var imagelist = [{
             'category' : 'php',
             'list' : [
+                'assets/img/ilc-helpdesk.JPG',
                 'assets/img/ilc-website.png',
                 'assets/img/pages-website.png',
                 'assets/img/conference-website.png',
@@ -49,7 +50,8 @@
         {
             'category' : 'osticket',
             'list' : [
-                'assets/img/osticket-website.png'
+                'assets/img/osticket-website.png',
+                'assets/img/ilc-helpdesk.JPG'
             ]
         },
         {
