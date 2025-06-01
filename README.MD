@@ -1,2 +1,2 @@
 ### JMR Portfolio Website
-link: https://pollyolly.github.io
+web link: https://pollyolly.github.io
