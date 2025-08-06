@@ -5,7 +5,7 @@
     <div class="portfolio-nav">
         <span class="nav cat" ng-repeat="list in portfolio.imagesList()">
             <span ng-click="portfolio.selectImage(list.category)"
-                  ng-init="portfolio.selectImage('php')">
+                  ng-init="portfolio.selectImage('PHP')">
                 {{ list.category }}
             </span>
         </span>
@@ -13,4 +13,5 @@
     <div class="card card-three" ng-repeat="list in portfolio.myimages">
         <img src="{{ list }}"></img>
     </div>
+
 </div>
