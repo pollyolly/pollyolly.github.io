@@ -4,7 +4,7 @@
     module.factory('imagelistSrv', ['$http', function($http) {
         var service = {}
         var imagelist = [{
-            'category' : 'php',
+            'category' : 'PHP',
             'list' : [
                 'assets/img/ilc-helpdesk.JPG',
                 'assets/img/ilc-website.png',
@@ -17,38 +17,38 @@
                 'assets/img/eidr-image.JPG'
             ]
         },{
-            'category' : 'codeigniter',
+            'category' : 'Codeigniter',
             'list' : [
                 'assets/img/invites-website.png'
             ]
         },
         {
-            'category' : 'drupal',
+            'category' : 'Drupal',
             'list' : [
                 'assets/img/eidr-image.JPG',
                 'assets/img/pages-website.png'
             ]
         },
         {
-            'category' : 'wordpress',
+            'category' : 'Wordpress',
             'list' : [
                 'assets/img/ilc-website.png'
             ]
         },
         {
-            'category' : 'angularjs',
+            'category' : 'Angularjs',
             'list' : [
                 'assets/img/portfolio-website.png'
             ]
         },
         {
-            'category' : 'wikimedia',
+            'category' : 'Wikimedia',
             'list' : [
                 'assets/img/iskomunidad-website.png'
             ]
         },
         {
-            'category' : 'osticket',
+            'category' : 'OSticket',
             'list' : [
                 'assets/img/osticket-website.png',
                 'assets/img/ilc-helpdesk.JPG'
@@ -102,3 +102,4 @@
         return service
     }]);
 })();
+
