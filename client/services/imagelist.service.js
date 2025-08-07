@@ -14,7 +14,7 @@
                 'assets/img/invites-website.png',
                 'assets/img/osticket-website.png',
                 'assets/img/iskomunidad-website.png',
-                'assets/img/eidr-image.JPG'
+                'assets/img/eidr-image.JPG',
             ]
         },{
             'category' : 'Codeigniter',
@@ -77,6 +77,12 @@
             'list' : [
                 'assets/img/iskomo-image.jpg'
             ]
+        },
+        {
+            'category': 'React Native',
+            'list': [
+                'assets/img/volume-manager.jpeg''
+            ]
         }
     ];
         service.imagesList = function(){
@@ -102,4 +108,5 @@
         return service
     }]);
 })();
+
 
