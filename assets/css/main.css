@@ -180,7 +180,7 @@ ul.menu {
     margin-top: 8px;
 }
 .card-item p {
-    line-height: 1em;
+    line-height: 1.5em;
 }
 .card-item p:last-child, .card-item p:first-child {
     padding: 5px 0px;
@@ -456,3 +456,4 @@ span.btn-success {
     /* display: block; */
     position: relative;
 }
+
