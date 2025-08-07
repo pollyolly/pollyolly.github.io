@@ -81,7 +81,7 @@
         {
             'category': 'React Native',
             'list': [
-                'assets/img/volume-manager.jpeg'
+                'assets/img/volume-manager.jpg'
             ]
         }
     ];
@@ -108,6 +108,7 @@
         return service
     }]);
 })();
+
 
 
 
